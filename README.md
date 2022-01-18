@@ -8,6 +8,6 @@ It requires go1.18. If when you're reading this go1.18 is not released yet you c
 ## Usage
 
 ```bash
-go get mkm.pub/syncpool@latest
+go get mkm.pub/syncpool
 ```
 
