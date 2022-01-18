@@ -11,3 +11,10 @@ It requires go1.18. If when you're reading this go1.18 is not released yet you c
 go get mkm.pub/syncpool
 ```
 
+```go
+p := syncpool.New(NewFoo)
+var v Foo
+v = p.Get()
+// ...
+p.Put(v)
+```
