@@ -1,3 +1,3 @@
 module mkm.pub/syncpool
 
-go 1.18
+go 1.19
